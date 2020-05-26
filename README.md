@@ -5,7 +5,7 @@
 * Carl Lewis Ochoa Álvarez -  
 * Andres Aguirre - 
 * Leonardo Zambrano Cifuentes - A00027552.
-* Santiago Narvaez Prado - código.
+* Santiago Narvaez Prado - A00027544.
 
 ### Objetivos
 
