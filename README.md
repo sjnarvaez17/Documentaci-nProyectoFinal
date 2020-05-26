@@ -19,17 +19,16 @@
 
 Siguiendo los pasos del método de la ingeniería y el proceso de despliegue de software, procedemos al diseño de nuestra solución. En la siguiente imagen, podemos observar que proponemos en la parte superior un balanceador de cargas, el cual cumplirá con las funciones de un proxy, con los cuales se comunicarán cada uno de los módulos correspondientes al Front-End(web). Se podrán tener varios módulos web, donde un usuario final podrá interactuar con los microservicios implementados y a su vez, estos se encontrarán comunicados con una base de datos, el cual almacenará toda la información que se obtenga y con la cual se inicializaran los datos en el Back-End.
 
-[imagen de diseño]
 
 ![Diseño](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Dise%C3%B1o%20de%20la%20soluci%C3%B3n.jpeg)
 
 ### Diseño del Orquestador:
 
-![Orquestador](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Dise%C3%B1o%20del%20orquestador.jpeg)
+![Orquestador]()
 
 ### Desarrollo
 
-### Docker-Compose.yml
+#### Docker-Compose.yml
 
 Docker Compose es una herramienta para definir y ejecutar aplicaciones Docker de múltiples contenedores. Genera scripts que facilitan el diseño y la construcción de servicios o de aplicaciones con múltiples componentes lo que simplifica el uso de Docker. Se puede usar el DockerFile como un bloque de construcción para Docker Compose.
 
@@ -58,11 +57,7 @@ También hay que configurar el archivo Nginx.conf, el código se muestra en las 
 
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Nginx%20Conf.jpeg)
 
-### Continuos Integration
 
-La integración continua es una práctica que se utiliza en el desarrollo de software actualmente, donde los desarrolladores integran el código frecuentemente a un repositorio compartido, varias veces al día. De esta manera pueden detectar inconsistencias, errores, ubicarlos y corregirlos de manera rápida. Cada integración puede verificarse con pruebas automatizadas y la compilación del código puede realizarse de manera automatizada.  
-
-Beneficios: Evita el mal conocido como “Merge Hell” que es el problema que ocurría con anterioridad en el momento de integrar el código en un equipo de desarrolladores cuando aparecía una inconsistencia en las líneas de código y esto producía una afectación a varias líneas de código más en diferentes clases. Además, la integración continua hace énfasis en la ejecución automática de las pruebas unitarias garantizando la detección de errores en etapas tempranas en el desarrollo, esto genera una reducción de los costos.  
 
 
 
