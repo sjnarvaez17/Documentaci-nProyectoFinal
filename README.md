@@ -49,11 +49,11 @@ Se realizó la configuración del Back-End, donde se especifica la red en donde 
 En la siguiente imagen, se visualiza la configuración que se realizó para que se realizara comunicación entre el back y el front. Para esto, se configura en el parámetro 'depends_of' con 'aik-app-api', con la intencion dar la instrucción que éste servicio podrá desplegarse solamente si ya está desplegado el back, ya que a partir de éste ultimo se actualizarán los componentes gráficos configurados. Es importante destacar el parámetro "scale", donde se indica que existirán dos instancias de éste servicio (replicación)
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Web%20Front-end.jpeg)
 
-Para la configuración del proxy Nginx (balanceador de carga), se debe configurar el contexto, es decir la carpeta donde se encuentra almacenado los archivos correspondientes a Nginx, el Dockerfile
+Para la configuración del proxy Nginx (balanceador de carga), se debe configurar el contexto, es decir la carpeta donde se encuentra almacenado los archivos correspondientes a Nginx, el Dockerfile, los puertos de comunicación y los servicios que se encontrarán conectados directamente. Como se evidencia en la imagen, los servicios que se asociaron con el proxy, son los correspondientes
 
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Proxy%20para%20el%20balanceador%20de%20carga-Nginx.jpeg)
 
-También hay que configurar el archivo Nginx.conf, el código se muestra en las siguientes imágenes:
+También hay que configurar el archivo Nginx.conf, donde se le indica todo lo relacionado con el comportamiento del proxy. A continuación se anexa el código para su completo funcionamiento:
 
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/C%C3%B3digo%20del%20Nginx%20.jpeg)
 
@@ -63,6 +63,5 @@ También hay que configurar el archivo Nginx.conf, el código se muestra en las 
 
 La integración continua es una práctica que se utiliza en el desarrollo de software actualmente, donde los desarrolladores integran el código frecuentemente a un repositorio compartido, varias veces al día. De esta manera pueden detectar inconsistencias, errores, ubicarlos y corregirlos de manera rápida. Cada integración puede verificarse con pruebas automatizadas y la compilación del código puede realizarse de manera automatizada.
 
-Beneficios:  
-
+Beneficios:
 Evita el mal conocido como “Merge Hell” que es el problema que ocurría con anterioridad en el momento de integrar el código en un equipo de desarrolladores cuando aparecía una inconsistencia en las líneas de código y esto producía una afectación a varias líneas de código más en diferentes clases. Además, la integración continua hace énfasis en la ejecución automática de las pruebas unitarias garantizando la detección de errores en etapas tempranas en el desarrollo, esto genera una reducción de los costos.
