@@ -46,3 +46,10 @@ Se realizó la configuración del Front-End
 La configuración del proxy para el balanceador de carga en Nginx
 
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Proxy%20para%20el%20balanceador%20de%20carga-Nginx.jpeg)
+
+También hay que configurar el archivo Nginx.conf, el código se muestra en las siguientes imágenes:
+
+![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/C%C3%B3digo%20del%20Nginx%20.jpeg)
+
+![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Nginx%20Conf.jpeg)
+
