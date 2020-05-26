@@ -24,6 +24,8 @@ Siguiendo los pasos del método de la ingeniería y el proceso de despliegue de 
 
 ### Diseño del Orquestador:
 
+A partir del diseño de la solución, se procedió a realizar un diseño mas detallado del orquestador, donde se indica que el proxy que realizará las funcionalidades de balanceador de cargas será NGINX, el cual se encontrará comunicado con las dos replicas del Front-End, y estas se encontrarán ligadas a un API, el cual es el intermediario entre los servicios web y la base de datos, ya que permite insertar datos y permite establecer un punto de conexión para recuperar todos los registros de una tabla o colección. Adicionalmente, se especifica que la base de datos que se usará va a ser Mlab, el cual es un servicio de gestión de bases de datos de Mongo. Por ultimo, el orquestador elegido es Docker-composer, debido a que nos permite generar scripts que facilitan nuestro diseño, la construcción de servicios o de aplicaciones con múltiples componentes y creación de múltiples contenedores y crearlos al mismo tiempo.
+
 ![Orquestador](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Orquestador.jpeg)
 
 ### Desarrollo
@@ -47,8 +49,7 @@ Se realizó la configuración del Back-End, donde se especifica la red en donde 
 En la siguiente imagen, se visualiza la configuración que se realizó para que se realizara comunicación entre el back y el front. Para esto, se configura en el parámetro 'depends_of' con 'aik-app-api', con la intencion dar la instrucción que éste servicio podrá desplegarse solamente si ya está desplegado el back, ya que a partir de éste ultimo se actualizarán los componentes gráficos configurados. Es importante destacar el parámetro "scale", donde se indica que existirán dos instancias de éste servicio (replicación)
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Web%20Front-end.jpeg)
 
-La configuración del proxy para el balanceador de carga en Nginx
-
+Para la configuración del proxy Nginx (balanceador de carga)
 ![](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Proxy%20para%20el%20balanceador%20de%20carga-Nginx.jpeg)
 
 También hay que configurar el archivo Nginx.conf, el código se muestra en las siguientes imágenes:
