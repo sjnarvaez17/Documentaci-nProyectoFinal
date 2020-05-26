@@ -63,5 +63,6 @@ También hay que configurar el archivo Nginx.conf, el código se muestra en las 
 
 La integración continua es una práctica que se utiliza en el desarrollo de software actualmente, donde los desarrolladores integran el código frecuentemente a un repositorio compartido, varias veces al día. De esta manera pueden detectar inconsistencias, errores, ubicarlos y corregirlos de manera rápida. Cada integración puede verificarse con pruebas automatizadas y la compilación del código puede realizarse de manera automatizada.
 
-Beneficios:
+Beneficios:  
+
 Evita el mal conocido como “Merge Hell” que es el problema que ocurría con anterioridad en el momento de integrar el código en un equipo de desarrolladores cuando aparecía una inconsistencia en las líneas de código y esto producía una afectación a varias líneas de código más en diferentes clases. Además, la integración continua hace énfasis en la ejecución automática de las pruebas unitarias garantizando la detección de errores en etapas tempranas en el desarrollo, esto genera una reducción de los costos.
