@@ -2,8 +2,8 @@
 
 ### Integrantes del Equipo
 
-* Carl Lewis Ochoa Álvarez -  
-* Andres Aguirre - 
+* Carl Lewis Ochoa Álvarez - A00310516
+* Andres Aguirre - A00329792
 * Leonardo Zambrano Cifuentes - A00027552.
 * Santiago Narvaez Prado - A00027544.
 
