@@ -21,7 +21,7 @@
 
 ### Diseño del Orquestador:
 
-![Orquestador](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Dise%C3%B1o%20del%20orquestador.jpeg)
+![Orquestador](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Dise%C3%B1o%20de%20la%20soluci%C3%B3n.jpeg)
 
 ### Desarrollo
 
