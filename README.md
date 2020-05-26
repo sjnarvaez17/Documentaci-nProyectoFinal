@@ -24,7 +24,7 @@ Siguiendo los pasos del método de la ingeniería y el proceso de despliegue de 
 
 ### Diseño del Orquestador:
 
-![Orquestador]()
+![Orquestador](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Orquestador.jpeg)
 
 ### Desarrollo
 
