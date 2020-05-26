@@ -33,7 +33,7 @@ Para el proyecto creamos nuestra propia red, esto se aprecia en la siguiente ima
 
 ![Red Propia](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Redes.jpeg)
 
-También, se usó la base de datos MongoDB como se aprecia en la siguiente imagen
+También, se usó la base de datos distribuida MongoDB. Esta base de datos es de uso general, fue diseñada para desarrolladores de aplicaciones modernas y para la era de la nube. En la siguiente imagen podemos ver esto
 
 ![Base de Datos](https://github.com/leonardoZambranoCifuentes/Documentaci-nProyectoFinal/blob/master/Im%C3%A1genes%20del%20proyecto%20final-%20Aguirre-Lewis-Tiago/Docker%20compose/Base%20de%20datos%20mongoDB.jpeg)
 
